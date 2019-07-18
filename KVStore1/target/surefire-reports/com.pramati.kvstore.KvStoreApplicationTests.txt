@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.pramati.kvstore.KvStoreApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.168 s <<< FAILURE! - in com.pramati.kvstore.KvStoreApplicationTests
+contextLoads(com.pramati.kvstore.KvStoreApplicationTests)  Time elapsed: 0.047 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'server': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Port value out of range: -1
+Caused by: java.lang.IllegalArgumentException: Port value out of range: -1
+
